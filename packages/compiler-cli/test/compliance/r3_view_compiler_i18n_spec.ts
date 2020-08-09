@@ -182,7 +182,7 @@ const verify = (input: string, output: string, extra: any = {}): void => {
   }
 };
 
-describe('i18n support in the template compiler', () => {
+xdescribe('i18n support in the template compiler', () => {
   describe('element attributes', () => {
     it('should add the meaning and description as JsDoc comments and metadata blocks', () => {
       const input = `
